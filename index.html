@@ -46,6 +46,26 @@
         <img id="scissors" src="http://images.clipartpanda.com/scissors-clipart-scissors_clip_art.png" alt="" height="150" width="150" onclick="rpsGame(this)">
       </div>
     </div>
+    <div class="container-4">
+      <h2 id="change-my-color">Challenge 4: Change the Color of All Buttons</h2>
+      <div class="flex-box-pick-color">
+        <!-- form used for user input -->
+        <form action="">
+          <!-- select creates drop-down list -->
+          <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+            <!-- option in drop-down list -->
+            <option value="random">Random</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="reset">Reset</option>
+          </select>
+        </form>
+        <button class="btn btn-primary">Wee</button>
+        <button class="btn btn-danger">Yahoo!</button>
+        <button class="btn btn-warning">Google!</button>
+        <button class="btn btn-success">Facebook!</button>
+      </div>
+    </div>
 
     <script src="static/js/scipt.js"></script>
   </body>
